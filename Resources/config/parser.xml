@@ -21,7 +21,7 @@
 
   <services>
 
-    <service id="markdown_parser" class="%markdown.parser.class%" shared="true">
+    <service id="markdown_parser" class="%markdown.parser.class%" scope="container">
       <argument type="collection">%markdown.parser.features%</argument>
     </service>
     
